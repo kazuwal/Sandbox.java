@@ -9,8 +9,8 @@ class BalanceData {
 }
 
 public class DOD_BankAccount {
-    private AccountNumberData accountNumberData;
-    private BalanceData balanceData;
+    private final AccountNumberData accountNumberData;
+    private final BalanceData balanceData;
 
     public DOD_BankAccount(int numOfAccounts) {
         accountNumberData = new AccountNumberData();
